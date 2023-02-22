@@ -85,13 +85,13 @@ main{
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.left-nav-main li{
+.left-nav li{
     padding-top: 10px;
     padding-bottom: 10px;
     position: relative;
 }
 
-.left-nav-main li:hover{
+.left-nav li:hover{
     color: var(--white);
     cursor: pointer;
 }
@@ -112,7 +112,14 @@ main{
 .left-nav-main li:hover .green-bar{
     opacity: 100;
 }
+
+.left-nav i{
+    font-size: 3rem;
+    padding-right: 10px;
+}
 /* /left nav */
+
+/* main */
 .main-content{
     width: calc(100% - 230px);
     height: 100%;
@@ -155,6 +162,7 @@ main{
     opacity: 100;
     transition: 0.5s;
 }
+
 .container{
     padding: 15px;
 }
@@ -219,6 +227,9 @@ main{
     text-transform: uppercase;
 }
 
+.text-capitalize{
+    text-transform: capitalize;
+}
 .text-grey{
     color: var(--grey);
 }
@@ -231,6 +242,9 @@ main{
     text-align: center;
 }
 
+.text-big{
+    font-size: 1.2rem;
+}
 .text-bold{
     font-weight: bold;
 }
