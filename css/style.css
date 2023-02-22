@@ -133,6 +133,11 @@ main{
 .col:hover .play-btn-album{
     opacity: 100;
 }
+
+#popular-artists .col-img img{
+    width: 100%;
+    border-radius: 100%;
+}
 /* utilities */
 .btn{
     padding: 6px 12px;
