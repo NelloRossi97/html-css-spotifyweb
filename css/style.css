@@ -117,6 +117,27 @@ main{
     font-size: 3rem;
     padding-right: 10px;
 }
+.left-nav-bottom .left-nav-icon{
+    width: 8%;
+    padding-right: 0;
+    margin-right: 5px;
+}
+.left-nav-bottom a:hover{
+    color: var(--white);
+}
+.left-nav-bottom hr{
+    margin: 5px 10px 15px 0;
+    border: 1px solid var(--grey);
+}
+.profile img{
+    background-color: var(--grey);
+    border-radius: 100%;
+    width: 100%;
+}
+.user-icon{
+    width: 15%;
+    margin-right: 10px;
+}
 /* /left nav */
 
 /* main */
@@ -278,6 +299,10 @@ main{
 .align-center{
     align-items: center;
     align-content: center;
+}
+
+.justify-between{
+    justify-content: space-between;
 }
 
 

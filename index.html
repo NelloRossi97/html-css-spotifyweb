@@ -14,69 +14,94 @@
 <body>
     <div class="wrapper">
         <main class="flex">
-            <nav class="left-nav">
-                <div class="left-nav-logo">
-                    <img src="./img/logo.svg" alt="Logo spotify">
-                </div>
-                <!-- left nav main -->
-                <div class="left-nav-main">
-                    <ul>
-                        <li class="text-grey flex align-center">
-                            <div class="left-nav-icon">
-                                <img src="./img/home.svg" alt="home">                                
-                            </div>
-                            <a href="" class="text-bold text-grey">Home</a>
-                            <div class="green-bar"></div>
-                        </li>
-                        <li class="text-grey flex align-center">
-                            <div class="left-nav-icon">
-                                <img src="./img/search.svg" alt="cerca">                                
-                            </div>
-                            <a href="" class="text-grey text-bold">Cerca</a>
-                            <div class="green-bar"></div>
-                        </li>
-                        <li class="text-grey flex align-center">
-                            <div class="left-nav-icon">
-                                <img src="./img/libreria.svg" alt="libreria">                                
-                            </div>
-                            <a href="" class="text-grey text-bold">La tua libreria</a>
-                            <div class="green-bar"></div>
-                        </li>
-                    </ul>
-                </div>
-                <!-- /left nav main -->
-                <div class="left-nav-playlist">
-                    <h3 class="text-uppercase">Playlist</h3>
-                    <div>
+            <nav class="left-nav flex flex-column-wrap justify-between">
+                <!-- left nav top -->
+                <div class="left-nav-top">
+                    <div class="left-nav-logo">
+                        <img src="./img/logo.svg" alt="Logo spotify">
+                    </div>
+                    <!-- left nav main -->
+                    <div class="left-nav-main">
                         <ul>
-                            <li class="text-grey text-bold text-big flex align-center">
-                                <i class="fa-solid fa-square-plus"></i>
-                                <span class="text-capitalize">Crea playlist</span>
+                            <li class="text-grey flex align-center">
+                                <div class="left-nav-icon">
+                                    <img src="./img/home.svg" alt="home">                                
+                                </div>
+                                <a href="" class="text-bold text-grey">Home</a>
+                                <div class="green-bar"></div>
                             </li>
-                            <li class="text-grey text-bold">
-                                <span class="text-capitalize">Nome playlist</span>
+                            <li class="text-grey flex align-center">
+                                <div class="left-nav-icon">
+                                    <img src="./img/search.svg" alt="cerca">                                
+                                </div>
+                                <a href="" class="text-grey text-bold">Cerca</a>
+                                <div class="green-bar"></div>
                             </li>
-                            <li class="text-grey text-bold">
-                                <span class="text-capitalize">Nome playlist</span>
-                            </li>
-                            <li class="text-grey text-bold">
-                                <span class="text-capitalize">Nome playlist</span>
-                            </li>
-                            <li class="text-grey text-bold">
-                                <span class="text-capitalize">Nome playlist</span>
-                            </li>
-                            <li class="text-grey text-bold">
-                                <span class="text-capitalize">Nome playlist</span>
-                            </li>
-                            <li class="text-grey text-bold">
-                                <span class="text-capitalize">Nome playlist</span>
-                            </li>
-                            <li class="text-grey text-bold">
-                                <span class="text-capitalize">Nome playlist</span>
+                            <li class="text-grey flex align-center">
+                                <div class="left-nav-icon">
+                                    <img src="./img/libreria.svg" alt="libreria">                                
+                                </div>
+                                <a href="" class="text-grey text-bold">La tua libreria</a>
+                                <div class="green-bar"></div>
                             </li>
                         </ul>
                     </div>
+                    <!-- /left nav main -->
+
+                    <!-- left nav playlist -->
+                    <div class="left-nav-playlist">
+                        <h3 class="text-uppercase">Playlist</h3>
+                        <div>
+                            <ul>
+                                <li class="text-grey text-bold text-big flex align-center">
+                                    <i class="fa-solid fa-square-plus"></i>
+                                    <span class="text-capitalize">Crea playlist</span>
+                                </li>
+                                <li class="text-grey text-bold">
+                                    <span class="text-capitalize">Nome playlist</span>
+                                </li>
+                                <li class="text-grey text-bold">
+                                    <span class="text-capitalize">Nome playlist</span>
+                                </li>
+                                <li class="text-grey text-bold">
+                                    <span class="text-capitalize">Nome playlist</span>
+                                </li>
+                                <li class="text-grey text-bold">
+                                    <span class="text-capitalize">Nome playlist</span>
+                                </li>
+                                <li class="text-grey text-bold">
+                                    <span class="text-capitalize">Nome playlist</span>
+                                </li>
+                                <li class="text-grey text-bold">
+                                    <span class="text-capitalize">Nome playlist</span>
+                                </li>
+                                <li class="text-grey text-bold">
+                                    <span class="text-capitalize">Nome playlist</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /left nav playlist -->
                 </div>
+                <!-- /left nav top -->
+
+                <!-- left nav bottom -->
+                <div class="left-nav-bottom">
+                    <div class="left-nav-download flex align-center">
+                        <div class="left-nav-icon">
+                            <img src="./img/download.svg" alt="download">
+                        </div>
+                        <a href="" class="text-grey text-bold">Installa app</a>
+                    </div>
+                    <hr>
+                    <div class="profile flex align-center">
+                        <div class="user-icon">
+                            <img src="./img/profile.svg" alt="user">
+                        </div>
+                        <a href="" class="text-bold text-capitalize">John doe</a>
+                    </div>
+                </div>
+                <!-- left nav bottom -->
             </nav>
 
             <!-- main content -->
