@@ -27,8 +27,9 @@ a{
     color: var(--white);
     text-decoration: none;
 }
-a:hover{
-    color: white;
+
+li:hover a{
+    color: var(--white);
 }
 
 ul{
@@ -39,6 +40,9 @@ h2{
     font-weight: bold;
 }
 
+i{
+    font-size: 1.5rem;
+}
 /* content */
 .wrapper{
     width: 100%;
@@ -62,11 +66,53 @@ main{
     bottom: 0;
     left: 0;
 }
+
+/* left nav */
 .left-nav{
     width: 230px;
     min-height: 480px;
     background-color: var(--black);
+    padding: 20px 0 20px 20px;
 }
+.left-nav-logo{
+    width: 100%;
+}
+.left-nav-logo img{
+    width: 70%;
+}
+
+.left-nav-main{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.left-nav-main li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.left-nav-main li:hover{
+    color: var(--white);
+    cursor: pointer;
+}
+.left-nav-icon{
+    width: 20%;
+    padding-right: 5px;
+}
+.left-nav-main li:hover img{
+    filter:brightness(150);
+}
+.left-nav-main .green-bar{
+    position: absolute;
+    left:-20px;
+    height: 100%;
+    border: none;
+    border-left: 4px solid var(--highlight);
+}
+.left-nav-main li:hover .green-bar{
+    opacity: 100;
+}
+/* /left nav */
 .main-content{
     width: calc(100% - 230px);
     height: 100%;
