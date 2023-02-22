@@ -14,36 +14,46 @@
 <body>
     <div class="wrapper">
         <main class="flex">
-            <nav class="main-nav">
+            <nav class="left-nav">
 
             </nav>
+
+            <!-- main content -->
             <section class="main-content">
                 <div id="call-to-action" class="flex justify-end align-center">
                     <a href="" class="btn text-uppercase">Effettua l'upgrade</a>
                 </div>
                 <div class="main-section">
-                    <nav>
+                    <!-- main nav -->
+                    <nav id="main-nav">
                         <ul class="flex justify-center p-20 align-center">
-                            <li>
-                                <a href="" class="text-grey text-uppercase text-bold p-20">In evidenza</a>
+                            <li class="flex flex-column-wrap">
+                                <a href="" class="text-grey text-uppercase text-bold p-20 p-bottom-5">In evidenza</a>
+                                <div class="green-bar"></div>
                             </li>
-                            <li>
-                                <a href="" class="text-grey text-uppercase text-bold p-20">Podcast</a>
+                            <li class="flex flex-column-wrap">
+                                <a href="" class="text-grey text-uppercase text-bold p-20 p-bottom-5">Podcast</a>
+                                <div class="green-bar"></div>
                             </li>
-                            <li>
-                                <a href="" class="text-grey text-uppercase text-bold p-20">Classifiche</a>
+                            <li class="flex flex-column-wrap">
+                                <a href="" class="text-grey text-uppercase text-bold p-20 p-bottom-5">Classifiche</a>
+                                <div class="green-bar"></div>
                             </li>
-                            <li>
-                                <a href="" class="text-grey text-uppercase text-bold p-20">Generi e mood</a>
+                            <li class="flex flex-column-wrap">
+                                <a href="" class="text-grey text-uppercase text-bold p-20 p-bottom-5">Generi e mood</a>
+                                <div class="green-bar"></div>
                             </li>
-                            <li>
-                                <a href="" class="text-grey text-uppercase text-bold p-20">Nuove uscite</a>
+                            <li class="flex flex-column-wrap">
+                                <a href="" class="text-grey text-uppercase text-bold p-20 p-bottom-5">Nuove uscite</a>
+                                <div class="green-bar"></div>
                             </li>
-                            <li>
-                                <a href="" class="text-grey text-uppercase text-bold p-20">Scopri</a>
+                            <li class="flex flex-column-wrap">
+                                <a href="" class="text-grey text-uppercase text-bold p-20 p-bottom-5">Scopri</a>
+                                <div class="green-bar"></div>
                             </li>
                         </ul>
                     </nav>
+                    <!-- /main nav -->
 
                     <!-- row recently played -->
                     <section class="container">
@@ -52,7 +62,7 @@
                             <h2>Recently played</h2>
                         </div>
 
-                        <div class="row flex">
+                        <div class="row flex align-items-start">
                             <div class="col">
                                 <div class="col-img">
                                     <img src="./img/metal_lifting.jpg" alt="metal">
@@ -190,6 +200,7 @@
                     <!-- /row popular artists -->
                 </div>
             </section>
+            <!-- /main content -->
         </main>
         <div id="playbar">
 
