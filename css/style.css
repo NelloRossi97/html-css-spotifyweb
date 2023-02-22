@@ -24,8 +24,13 @@ a{
     color: var(--white);
     text-decoration: none;
 }
+
 ul{
     list-style: none;
+}
+
+h2{
+    font-weight: bold;
 }
 
 /* content */
@@ -40,7 +45,7 @@ main{
     width: 100%;
     height: calc(100vh - 90px);
     overflow: hidden;
-    background-color: #ADFF2F;
+    background-color: black;
 }
 #playbar{
     width: 100%;
@@ -90,10 +95,40 @@ main{
     margin-left: -15px;
     margin-right: -15px;
 }
+.title-row{
+    padding-bottom: 30px;
+}
 .col{
-    border: 1px solid red;
     padding: 15px;
     width: calc(100% / 6);
+    transition: 0.3s;
+}
+.col-img{
+    position: relative;
+}
+.col-img img{
+    width: 100%;
+}
+.col-text h3{
+    padding: 15px 0;
+}
+
+.play-btn-album{
+    width: 40%;
+    position: absolute;
+    right:5px;
+    bottom:5px;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.col:hover {
+    border-radius: 20px;
+    background-color:#0c0f14fb;
+    cursor: pointer;
+}
+.col:hover .play-btn-album{
+    opacity: 100;
 }
 /* utilities */
 .btn{
@@ -110,13 +145,16 @@ main{
 }
 
 .text-grey{
-    color: var(--light-grey);
+    color: var(--grey);
 }
 
 .text-bold{
     font-weight: bold;
 }
 
+.text-center{
+    text-align: center;
+}
 /* flex */
 
 .flex{
