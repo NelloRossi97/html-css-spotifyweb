@@ -24,6 +24,10 @@ a{
     color: var(--white);
     text-decoration: none;
 }
+ul{
+    list-style: none;
+}
+
 /* content */
 .wrapper{
     width: 100%;
@@ -69,11 +73,12 @@ main{
     height: 80px;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 500;
+    padding: 15px;
 }
 
 .main-section{
     margin-top: 80px;
-    padding: 2rem;
+    padding: 0 2rem 2rem 2rem;
 }
 
 .container{
@@ -104,6 +109,16 @@ main{
     text-transform: uppercase;
 }
 
+.text-grey{
+    color: var(--light-grey);
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+/* flex */
+
 .flex{
     display: flex;
 }
@@ -111,7 +126,20 @@ main{
 .justify-end{
     justify-content: flex-end;
 }
+
+.justify-center{
+    justify-content: center;
+}
+
 .align-center{
     align-items: center;
     align-content: center;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+.p-20{
+    padding: 20px;
 }
