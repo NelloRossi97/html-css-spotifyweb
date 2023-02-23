@@ -156,6 +156,9 @@ main{
     top: 0;
     right: 0;
 }
+.main-content h2{
+    display: none;
+}
 #call-to-action{
     position: fixed;
     top: 0;
