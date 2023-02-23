@@ -268,11 +268,17 @@ main{
 .playbar-center-top i:hover, .playbar-right i:hover{
     scale: 1.2;
 }
-
+#playbar i{
+    padding: 5px;
+}
 .playbar-center-top{
     width: 30%;
     padding: 5px;
     margin-top: 10px;
+}
+.playbar-center-top i{
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .playbar-center-bottom{
     width: 70%;
@@ -283,7 +289,7 @@ main{
 .playbar-center-bottom input[type=range]{
     width: 80%;
 }
-.playbar-right .playbar-line{
+.playbar-right input[type=range]{
     width: 60%;
 }
 .playbar-volume{
@@ -292,6 +298,8 @@ main{
 .playbar-volume i{
     padding-right: 10px;
 }
+
+
 
 /* utilities */
 .btn{
