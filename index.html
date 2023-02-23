@@ -288,8 +288,8 @@
             </section>
             <!-- /main content -->
         </main>
-        <div id="playbar">
-            <div class="playbar-left flex">
+        <div id="playbar" class="flex justify-between align-center">
+            <div class="flex">
                 <div class="playbar-song flex">
                     <div class="playbar-img flex align-center">
                         <img src="./img/sinister.jpeg" alt="Sinister">
@@ -305,12 +305,30 @@
                 </div>
             </div>
 
-            <div class="playbar-center">
-
+            <div class="playbar-center flex flex-column-wrap align-center">
+                <div class="playbar-center-top flex justify-between align-center">
+                    <a href=""><i class="fa-solid fa-shuffle"></i></a>
+                    <a href=""><i class="fa-solid fa-backward-step"></i></a>
+                    <a href="" id="playbar-play"><i class="fa-regular fa-circle-play"></i></a>
+                    <a href=""><i class="fa-solid fa-forward-step"></i></a>
+                    <a href=""><i class="fa-solid fa-rotate-right"></i></a>
+                </div>
+                <div class="playbar-center-bottom">
+                    <div class="flex justify-between align-center">
+                        <span class="text-bold">0:25</span>
+                        <input type="range" id="seek-slider" max="100" value="0">
+                        <span class="text-bold">4:35</span>
+                    </div>
+                </div>
             </div>
 
-            <div class="playbar-right">
-
+            <div class="playbar-right flex align-center justify-between">
+                <a href=""><i class="fa-solid fa-list-ul"></i></a>
+                <a href=""><i class="fa-solid fa-display"></i></a>
+                <div class="flex align-center playbar-volume">
+                    <a href=""><i class="fa-solid fa-volume-high"></i></a>
+                    <input type="range" id="seek-slider" max="100" value="0">
+                </div>
             </div>
         </div>
     </div>

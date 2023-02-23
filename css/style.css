@@ -250,7 +250,7 @@ main{
 .playbar-img img{
     width: 20%;
 }
-.playbar-left .playbar-song-text{
+.playbar-song-text{
     margin-left:1rem;
 }
 .playbar-song-text:hover{
@@ -259,7 +259,39 @@ main{
 .playbar-favorite a{
     padding-right: 15px;
 }
+.playbar-center{
+    width: 40%;
+}
+.playbar-center #playbar-play i{
+    font-size: 2.5rem;
+}
+.playbar-center-top i:hover, .playbar-right i:hover{
+    scale: 1.2;
+}
 
+.playbar-center-top{
+    width: 30%;
+    padding: 5px;
+    margin-top: 10px;
+}
+.playbar-center-bottom{
+    width: 70%;
+}
+.playbar-right{
+    width: 15%;
+}
+.playbar-center-bottom input[type=range]{
+    width: 80%;
+}
+.playbar-right .playbar-line{
+    width: 60%;
+}
+.playbar-volume{
+    width: 70%;
+}
+.playbar-volume i{
+    padding-right: 10px;
+}
 
 /* utilities */
 .btn{
