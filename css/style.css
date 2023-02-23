@@ -234,6 +234,33 @@ main{
     width: 100%;
     border-radius: 100%;
 }
+
+/* playbar */
+#playbar{
+    padding: 10px 10px 20px 10px;
+}
+#playbar i:hover{
+    color: var(--white);
+}
+.playbar-song{
+    width: 15vw;
+    height: 100%;
+}
+
+.playbar-img img{
+    width: 20%;
+}
+.playbar-left .playbar-song-text{
+    margin-left:1rem;
+}
+.playbar-song-text:hover{
+    cursor: pointer;
+}
+.playbar-favorite a{
+    padding-right: 15px;
+}
+
+
 /* utilities */
 .btn{
     padding: 12px 40px;
@@ -305,4 +332,6 @@ main{
     justify-content: space-between;
 }
 
-
+.justify-start{
+    justify-content: flex-start;
+}
