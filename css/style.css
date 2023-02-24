@@ -321,7 +321,17 @@ main{
 .playbar-volume i{
     padding-right: 10px;
 }
-
+input[type="range"] {
+    -webkit-appearance: none;
+    margin-right: 15px;
+    width: 200px;
+    height: 7px;
+    background: var(--grey);
+    border-radius: 5px;
+    background-image: linear-gradient(var(--highlight), var(--highlight));
+    background-size: 70% 100%;
+    background-repeat: no-repeat;
+}
 
 
 /* utilities */
@@ -446,9 +456,6 @@ main{
     #playbar .playbar-favorite{
         flex-direction: row;
     }
-    /* #playbar .playbar-favorite i{
-        scale: 0.8;
-    } */
 }
 
 @media screen and (max-width: 576px) {
@@ -502,6 +509,4 @@ main{
     .user-icon:hover{
         cursor: pointer;
     }
-    
-    
 }
