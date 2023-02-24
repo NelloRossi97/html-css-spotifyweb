@@ -144,6 +144,10 @@ main{
     width: 15%;
     margin-right: 10px;
 }
+
+.left-nav-bottom .playbar-right{
+    display: none;
+}
 /* /left nav */
 
 /* main */
@@ -522,4 +526,38 @@ input[type="range"]::-webkit-slider-thumb {
     .user-icon:hover{
         cursor: pointer;
     }
+}
+
+@media screen and (max-width:450px) {
+    .playbar-right{
+        display: none;
+    }
+
+    .left-nav .playbar-right{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 120px;
+        position: relative;
+        left:5px;
+    }
+    .left-nav .playbar-right a{
+        display: block;
+    }
+    .left-nav input[type="range"] {
+        transform: rotate(-90deg);
+        width: 80px;
+    }
+    .left-nav-bottom{
+        width: 100%;
+    }
+
+    .playbar-volume{
+        padding-top: 15px;
+    }
+    .playbar-volume i{
+        font-size: 1.3rem;
+        padding-bottom: 50px;
+    }
+
 }
