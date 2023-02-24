@@ -268,7 +268,7 @@ main{
 }
 
 .playbar-img img{
-    width: 20%;
+    width: 50px;
 }
 .playbar-song-text{
     margin-left:1rem;
@@ -279,8 +279,11 @@ main{
 .playbar-favorite a{
     padding-right: 15px;
 }
+.playbar-left{
+    width: 20%;
+}
 .playbar-center{
-    width: 40%;
+    width: 60%;
 }
 .playbar-center #playbar-play i{
     font-size: 2.5rem;
@@ -292,7 +295,7 @@ main{
     padding: 5px;
 }
 .playbar-center-top{
-    width: 30%;
+    width: 100%;
     padding: 5px;
     margin-top: 10px;
 }
@@ -304,7 +307,7 @@ main{
     width: 70%;
 }
 .playbar-right{
-    width: 15%;
+    width: 20%;
 }
 .playbar-center-bottom input[type=range]{
     width: 80%;
